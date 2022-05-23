@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.menu-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 500px;
+    text-align: center;
+}
+
+label {
+    font-size: 140%;
+    background-color: #189AB4;
+    padding: 20px;
+}
+
+.btn-create {
+
+    border: none;
+    padding: 10px;
+    background-color: #A0E7E5;
+    color: white;
+    transition: .3s ease;
+}
+
+.btn-create:hover {
+
+
+    background-color: #189AB4;
+    color: #FFAEBC;
+    border: 1px solid #189AB4;
+    transition: .3s ease;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+
+    max-width: 500px;
+    padding: 200px;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    gap: 2rem;
+}
+
+
+.child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFAEBC;
+    padding: 40px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-size: 120%;
+}
+
+.btn-delete {
+    border: none;
+    padding: 10px;
+    background-color: #189AB4;
+    color: white;
+    transition: .3s ease;
+}
+
+.btn-delete:hover {
+    background-color: white;
+    color: #189AB4;
+    border: 1px solid #189AB4;
+    transition: .3s ease;
+}
